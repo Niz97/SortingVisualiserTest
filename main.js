@@ -117,9 +117,9 @@ function draw(){
 	var randY = Math.floor(Math.random() * 10);
 	document.getElementById("btnChangeColour").onclick = function() {changeColour(grid, randX, randY)};
 	
-	// drawBar(grid, 1, 7, "blue");
-	// drawBar(grid, 2, 8, "red");
-	drawBarsFromArray([5, 3, 8, 4]);
+	drawBar(grid, 1, 7, "blue");
+	drawBar(grid, 2, 8, "red");
+	//drawBarsFromArray([5, 3, 8, 4]);
 
 	// draw out grid to screen
 	drawGrid(10, grid);
