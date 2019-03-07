@@ -11,8 +11,8 @@ window.addEventListener('load', function() {
 	// change properties of individual rectangles
 	// request animation frame - https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
 	
-	// generate 10 x 10 grid with 30 spacing
-	// choose 30 because our canvas is 600 x 600
+	// generate 10 x 10 grid with 60 spacing
+	// choose 60 because our canvas is 600 x 600
 	grid = createGrid(10, 60);
 
 	// given an array [5, 2, 8 , 9, 2]
